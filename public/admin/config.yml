@@ -20,7 +20,7 @@ collections:
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Description", name: "summary", widget: "text"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Featured Image", name: "images", widget: "image"}
       - {label: "Authors", name: "authors", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "authors" # Used in routes, e.g., data/blog
