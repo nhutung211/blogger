@@ -21,7 +21,7 @@ collections:
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Description", name: "summary", widget: "text"}
       - {label: "Featured Image", name: "images", widget: "image"}
-      - {label: "Authors", name: "authors", widget: "list"}
+      - {label: "Authors", name: "authors", widget: "list", default: default}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "authors" # Used in routes, e.g., data/blog
     extension: mdx
