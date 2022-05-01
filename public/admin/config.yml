@@ -8,6 +8,8 @@ media_folder: "public/static/images" # Media files will be stored in the repo un
 public_folder: "/public/static/images" # The src attribute for uploaded media will begin with /images
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    extension: mdx
+    format: frontmatter
     label: "Blog" # Used in the UI
     folder: "data/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
